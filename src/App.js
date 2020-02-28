@@ -8,7 +8,7 @@ export default function App() {
   return (
     <main>
       <Header />
-      <Route path="/">
+      <Route exact path="/">
         <WelcomePage />
       </Route>
       <Route path="/characterlist">
